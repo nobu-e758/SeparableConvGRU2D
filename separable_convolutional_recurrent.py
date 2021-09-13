@@ -169,7 +169,7 @@ class SeparableConvRNN2D(RNN):
       # The StackedConvRNN2DCells isn't implemented yet.
       raise TypeError('It is not possible at the moment to'
                       'stack convolutional cells.')
-    super(SeparablConvRNN2D, self).__init__(cell,
+    super(SeparableConvRNN2D, self).__init__(cell,
                                       return_sequences,
                                       return_state,
                                       go_backwards,

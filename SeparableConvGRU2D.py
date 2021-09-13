@@ -12,7 +12,7 @@ from tensorflow.python.keras.layers.recurrent import DropoutRNNCellMixin
 from tensorflow.python.keras.utils import conv_utils
 from tensorflow.python.ops import array_ops
 
-from .separable_convolutional_recurrent import SeparableConvRNN2D
+from separable_convolutional_recurrent import SeparableConvRNN2D
 
 
 class SeparableConvGRU2DCell(DropoutRNNCellMixin, Layer):
